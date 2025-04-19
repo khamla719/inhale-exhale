@@ -1,0 +1,41 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#F3F3F3"/>
+  
+  {/* Inhaler Body */}
+  <path d="M150 100L250 100C270 100 280 110 280 130L280 270C280 290 270 300 250 300L150 300C130 300 120 290 120 270L120 130C120 110 130 100 150 100Z" 
+    fill="#7FD1B9"
+    stroke="#2E2E2E"
+    stroke-width="4"/>
+  
+  {/* Mouthpiece */}
+  <path d="M180 80L220 80C230 80 235 85 235 95L235 105L165 105L165 95C165 85 170 80 180 80Z"
+    fill="#FFB86C"
+    stroke="#2E2E2E"
+    stroke-width="4"/>
+  
+  {/* Lavender Decoration */}
+  <g transform="translate(200,200)">
+    <path d="M-20 -20C-40 -40 -35 -60 -20 -70M-20 -20C0 -40 -5 -60 -20 -70" stroke="#FFB86C" stroke-width="2"/>
+    <path d="M20 -20C0 -40 5 -60 20 -70M20 -20C40 -40 35 -60 20 -70" stroke="#FFB86C" stroke-width="2"/>
+    <circle cx="-20" cy="-65" r="5" fill="#FFB86C"/>
+    <circle cx="20" cy="-65" r="5" fill="#FFB86C"/>
+  </g>
+  
+  {/* Calming Waves */}
+  <path d="M140 200C160 190 180 210 200 200C220 190 240 210 260 200" 
+    stroke="#FFB86C" 
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-dasharray="4 6">
+    <animate
+      attributeName="d"
+      values="M140 200C160 190 180 210 200 200C220 190 240 210 260 200;M140 210C160 200 180 220 200 210C220 200 240 220 260 210;M140 200C160 190 180 210 200 200C220 190 240 210 260 200"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+  </path>
+  
+  {/* Background Elements */}
+  <circle cx="200" cy="200" r="150" fill="#7FD1B9" fill-opacity="0.1"/>
+  <circle cx="200" cy="200" r="100" stroke="#FFB86C" stroke-width="2" stroke-dasharray="4 6"/>
+</svg> 
